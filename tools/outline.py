@@ -123,6 +123,7 @@ def main():
         "noise-rest-reversed.svg": lockup_svg(snow, ACCENT_DARK, rest_w=L["reversed"]["restWeight"]),
         "noise-rest-reversed-mono.svg": lockup_svg(snow, snow),
         "noise-rest-small.svg": lockup_svg(ink, ACCENT, L["smallSize"]["noiseWeight"], L["smallSize"]["restWeight"]),
+        "noise-rest-small-reversed.svg": lockup_svg(snow, ACCENT_DARK, L["smallSize"]["noiseWeight"], L["smallSize"]["restWeight"]),
         "mark.svg": mark_svg(ACCENT),
         **{f"favicon-{s}.svg": favicon_svg(s) for s in (16, 32, 48)},
     }
